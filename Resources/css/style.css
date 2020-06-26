@@ -20,6 +20,10 @@ html{
     margin: 0 auto;
 }
 
+section{
+    padding: 80px 0;
+}
+
 header{
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
@@ -49,7 +53,10 @@ header{
     
 }
 
-
+.box p{
+    font-size:90%;
+    line-height: 145%;
+}
 
 .btn-full:link,
 .btn-full:visited{
@@ -64,6 +71,58 @@ header{
     color: #e67e22;
 }
 
+
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+    
+}
+
+.meals-showcase{
+    list-style: none;
+    width:100%;
+    
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width:25%;
+    
+    
+}
+
+.meal-photo{
+    width:100%;
+    margin:0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meal-photo img{
+    opacity: 0.7;
+    width:100%;
+    height: auto;   
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+    
+}
+
+.section-feature .long-copy{
+    margin-bottom: 30px;
+}
+
+.section-meals{
+    padding: 0;
+}
+
 .btn:active,
 .btn:hover{
     background-color: #cf6d17;
@@ -74,6 +133,11 @@ header{
     background-color: #cf6d17;
     border: 1px solid #cf6d17 ;
      
+}
+
+
+.steps{
+    background-color: #DCDCDC;
 }
 
 .btn-ghost:link,
@@ -116,15 +180,158 @@ header{
     
 }
 
+.box{
+    padding: 1%;
+}
 
+
+.city-feature{
+    margin-bottom: 5px;
+}
+
+
+a:link,
+a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: color 0.2s, border-bottom 0.2s;
+    
+    
+}
+
+.section-testimonials{
+    
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    background-attachment: fixed;
+    
+}
+
+
+a:hover,
+a:active{
+    color:black;
+    border: 1px solid transparent;
+    
+    
+}
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    margin-top: -4px;
+    line-height: 120%;
+    vertical-align: middle;
+}
+
+h1,h2,h3{
+   
+    font-weight: 300;
+    text-transform:uppercase;
+    
+}
+
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%
+}
 
 h1{
-    margin: 0;
+     margin-top: 0;
     margin-bottom: 20px;
     color: white;
     font-size: 240%;
-    font-weight: 300;
-    text-transform:uppercase;
-    letter-spacing: 1px;
     word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size:180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3{
+    font-size:110%;
+    margin-bottom: 50px;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+
+.clearfix{
+    zoom:1;
+}
+
+.clearfix:after{
+    content:'.';
+    clear:both;
+    display:block;
+    height:0;
+    visibility: hidden;
+}
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+    
+}
+
+.steps-box:last-child{
+    
+    padding-left: 3%;
+    margin-top: 70px;
+    
+    
+}
+
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+
+.app-screen{
+    width: 40%;
+}
+
+.work-steps{
+    margin-bottom: 50px;
+}
+
+.work-steps div{
+    color:#e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    text-align: center;
+    padding:5px;
+    float: left;
+    font-size:150%;
+    margin-right: 25px;
+    
 }
