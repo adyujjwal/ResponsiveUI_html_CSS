@@ -369,3 +369,39 @@ h2:after{
     margin-right: 25px;
     
 }
+
+
+.section-plans{
+    background-color: #DCDCDC;
+    
+}
+
+.plan-box{
+    background-color: white;
+    border-radius: 5px;
+    width:90%;
+    margin-left: 5%;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.plan-price{
+    font-size: 300%;
+    font-weight: 100;
+    color: #e67e22;
+    
+}
+
+.plan-price-meal{
+    font-size:80%;
+}
+
+.qwer ul{
+    list-style-type: none;
+}
+.qwer ul li{
+    padding: 10px;
+    
+}
